@@ -9,7 +9,8 @@ df = pd.read_csv("petrol_consumption.csv")
 print(df.head())
 
 df_columns = df.columns
-print(df_columns)
+"""commented by mohan"""
+##print(df_columns)
 
 x = df[["Petrol_tax", "Average_income", "Paved_Highways","Population_Driver_licence(%)"]]
 y = df["Petrol_Consumption"]
